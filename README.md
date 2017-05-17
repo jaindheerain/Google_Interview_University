@@ -17,5 +17,5 @@ Edit the document or wiki page and use the - [ ] and - [x] syntax to update your
 - [ ]    10. Disjoint Sets ADT
 - [ ]    11. Graph Algorithms
 
-# Online Judge : LeetCode,CodeChef,CodeForces
-# Resources    : CodeMonk - Ds & Algo By Narasimha Karumanchi, http://www.ideserve.co.in , Gate Lectures by Ravindrababu Ravula , GeekforGeeks.
+#### Online Judge : LeetCode,CodeChef,CodeForces
+#### Resources    : CodeMonk - Ds & Algo By Narasimha Karumanchi, http://www.ideserve.co.in , Gate Lectures by Ravindrababu Ravula , GeekforGeeks.
