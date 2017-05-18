@@ -78,3 +78,6 @@ trace your code with test cases before telling the interviewer - done!
 
 - [ ]    1. [Algorithms Part-1 By Robert Sedgewick,Princeton University](https://www.coursera.org/learn/algorithms-part1/home/welcome)
 - [ ]    2. [Algorithms Part-1 By Robert Sedgewick,Princeton University](https://www.coursera.org/learn/algorithms-part2/home/welcome)
+
+# Challenge
+Life is a challenge. Inorder to accomplish anything great remember for. You need 3 things HARD WORK + BLOOD + PERSEVERANCE = UNSTOPPABLE. I challenge myself I will push my local directory into my github. If I had completed 100% of a particular topic.
