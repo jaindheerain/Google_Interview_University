@@ -74,5 +74,7 @@ handle corner cases
 trace your code with test cases before telling the interviewer - done!
 
 # Awesome Courses for building Algorithms and DS knowledge
-https://www.coursera.org/learn/algorithms-part1/home/welcome
-https://www.coursera.org/learn/algorithms-part1/home/welcome
+
+
+- [ ]    1. [Algorithms Part-1 By Robert Sedgewick,Princeton University](https://www.coursera.org/learn/algorithms-part1/home/welcome)
+- [ ]    2. [Algorithms Part-1 By Robert Sedgewick,Princeton University](https://www.coursera.org/learn/algorithms-part2/home/welcome)
