@@ -90,3 +90,5 @@ trace your code with test cases before telling the interviewer - done!
 
 # Challenge
 Life is a challenge. Inorder to accomplish anything great remembered for. You need 3 things HARD WORK + BLOOD + PERSEVERANCE = UNSTOPPABLE. I challenge myself, I will push my local directory into my github. If I had completed 100% of a particular topic.
+# Whats important ?
+Most important part of this repository is to show that I want to make it successful and working prototype inorder to help anyone to reach their goals in the field of competitive programming and helping them to crack their interviews. So go Rise and Shine. Work your Ass off ! I dont want to be an average guy for rest of my life. I want to be someone worth remebered for the work I do. I want to live upto my potential. I dont want someone to judge me about my capabilities and what I can do with my life. So now the most important part YOU DO IT WHEN ODDS ARE NOT IN YOUR TURN AS ELON MUSK DID! 
