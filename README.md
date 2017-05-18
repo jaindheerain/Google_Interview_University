@@ -56,7 +56,7 @@ where applicable, use
 8. before implementing your algorithm
 9. discuss it with the interviewer
 10. discuss it’s time and space complexity
-#### see if it can be improved based on above discussion
+#### See if it can be improved based on above discussion
 write test cases (before code!)
 start small, test immediately
 write functions that are
