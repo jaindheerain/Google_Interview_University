@@ -3,6 +3,10 @@ Basic computational knowledge towards Data_Structures and Algorithms
 
 Edit the document or wiki page and use the - [ ] and - [x] syntax to update your task list.
 
+# Java Basics
+[Constructors in Java - A complete Study](http://beginnersbook.com/2013/03/constructors-in-java/)
+
+
 # Data Structures and Computational Basics:
 
 - [ ]    1.  Asymptotic Notation
@@ -26,6 +30,8 @@ Edit the document or wiki page and use the - [ ] and - [x] syntax to update your
 # Inspired Posts
 https://www.quora.com/What-is-the-best-book-to-learn-data-structures-using-Java
 https://www.quora.com/How-can-I-learn-Data-Structure-in-Java
+
+
 
 # Tips for cracking coding Interview
 Focus on following areas to crack almost any programming interview:
@@ -80,4 +86,4 @@ trace your code with test cases before telling the interviewer - done!
 - [ ]    2. [Algorithms Part-1 By Robert Sedgewick,Princeton University](https://www.coursera.org/learn/algorithms-part2/home/welcome)
 
 # Challenge
-Life is a challenge. Inorder to accomplish anything great remember for. You need 3 things HARD WORK + BLOOD + PERSEVERANCE = UNSTOPPABLE. I challenge myself, I will push my local directory into my github. If I had completed 100% of a particular topic.
+Life is a challenge. Inorder to accomplish anything great remembered for. You need 3 things HARD WORK + BLOOD + PERSEVERANCE = UNSTOPPABLE. I challenge myself, I will push my local directory into my github. If I had completed 100% of a particular topic.
