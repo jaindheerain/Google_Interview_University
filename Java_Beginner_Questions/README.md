@@ -25,7 +25,7 @@ $ Foo foo = new Foo();
 ###### You can copy that reference as much as you like, but there's just one house -- you're just copying the card that has the address on it, not the house itself. Java methods are always pass-by-value, but the value could be an object's Reference
 
 # 4. what is a reference?
-A reference is what is used to describe the pointer to the memory location where the Object resides.
+A reference is the address of the memory location where the object is stored.
 
 # 5. Java -What is an instance variable? 
 
