@@ -100,5 +100,5 @@ See Ara Mambreyan just a 17 year old guy cracked the international olympiad . Do
 
 This is me in the August with the current President of Armenia.
 ![With the president of Armenia](https://github.com/dineshsonachalam/Mission_Peace/blob/master/images/ara_mambreyan.jpg "Ara_Mambreyan")
-Your family and friend doesnt give a damn about your dreams. Dont ever get a opinion from them. Stop advicing people and friends until you achieve anything great because 'Your words dont create Monuments but your Action does!'. Live your dream. Follow your instincts! Live life to your potential and then life becomes a celebration !
+Your family and friends doesnt give a damn about your dreams. Dont ever get a opinion from them. Stop advicing people and friends until you achieve anything great because 'Your words dont create Monuments but your Action does!'. Live your dream. Follow your instincts! Live life to your potential and then life becomes a celebration !
  
