@@ -115,5 +115,6 @@ See Ara Mambreyan just a 17 year old guy cracked the international olympiad . Do
 
 This is me in the August with the current President of Armenia.
 ![With the president of Armenia](https://github.com/dineshsonachalam/Mission_Peace/blob/master/images/ara_mambreyan.jpg "Ara_Mambreyan")
-Your family and friends doesnt give a damn about your dreams. Your brother is an mean asshole and dont listen to him. Dont ever get a opinion from them. Stop advicing people and friends until you achieve anything great because 'Your words dont create Monuments but your Action does!'. Live your dream. Follow your instincts! Live life to your potential and then life becomes a celebration !
+Your brother is a mean person and dont try to get advice from him. He doesnt define me and what I deserve in life. I define myself and I deserve to be a person living upto his total potential. 
+Your family and friends doesnt give a damn about your dreams.Dont ever get a opinion from them. Stop advicing people and friends until you achieve anything great because 'Your words dont create Monuments but your Action does!'. Live your dream. Follow your instincts! Live life to your potential and then life becomes a celebration !
  
