@@ -8,6 +8,7 @@ Edit the document or wiki page and use the - [ ] and - [x] syntax to update your
  
 2. [Final Keyword In Java – Final variable, Method and Class](http://beginnersbook.com/2014/07/final-keyword-java-final-variable-method-class/)
 3. [Super keyword in java with example](http://beginnersbook.com/2014/07/super-keyword-in-java-with-example/)
+4. [Java Good tutorial](http://www.dummies.com/programming/java/reference-types-in-java/)
 #### Algorithm: method for solving a problem.
 #### Data structure: method to store information.
 #### Datastructure classified into 2 types
