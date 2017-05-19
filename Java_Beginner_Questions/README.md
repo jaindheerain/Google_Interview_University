@@ -11,3 +11,6 @@ They probably mean you have to write something like this:
 ```sh
 $ Foo foo = new Foo();
 ```
+# 2. What is the difference between extends and implements?
+Extends -> For inheriting the Base Class.
+Implements -> For implementing an Interface.
