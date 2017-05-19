@@ -95,7 +95,16 @@ Most important part of this repository is to show that I want to make it success
 # Inspiration and my motivation
 - [What is the secret of self discipline By Ara-Mambreyan](https://www.quora.com/What-is-the-secret-to-self-discipline/answer/Ara-Mambreyan-1)
 - [What do you do when no one believes in you? By Ara-Mambreyan](https://www.quora.com/What-do-you-do-when-no-one-believes-in-you/answer/Ara-Mambreyan-1?srid=RzIL)
-When something is difficult, I have to push myself in doing that. The first days would be hard and tedious. Then, it would become a habit. Lastly, it would become a lifestyle.
+##### Nobody believes in nobody. You are the only one who knows yourself. YOU!
+
+##### Not me. Not your teacher. Not your girlfriend. Not even your parents.
+
+##### YOU! You are the freak of nature. You have the power within you. Nobody, knows how you think or how much power of will you have. Only you!
+
+##### Find the burning power within you. Self-confidence (which leads to hard-work) is the leading factor of success. Talent, brain and discipline are nothing if you don’t have self-confidence. But don’t tie your self-confidence with what others believe.
+
+##### Believe in yourself and go conquer the world!
+##### When something is difficult, I have to push myself in doing that. The first days would be hard and tedious. Then, it would become a habit. Lastly, it would become a lifestyle.
 # Making Execuses?
 See Ara Mambreyan just a 17 year old guy cracked the international olympiad . Do not waste time partying/socializing.
 
