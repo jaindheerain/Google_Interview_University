@@ -8,7 +8,11 @@ Edit the document or wiki page and use the - [ ] and - [x] syntax to update your
  
 2. [Final Keyword In Java – Final variable, Method and Class](http://beginnersbook.com/2014/07/final-keyword-java-final-variable-method-class/)
 3. [Super keyword in java with example](http://beginnersbook.com/2014/07/super-keyword-in-java-with-example/)
-
+#### Algorithm: method for solving a problem.
+#### Data structure: method to store information.
+#### Datastructure classified into 2 types
+ 1. Linear : A data structure is said to be linear if the elements form a sequence, for example Array, Linked list, queue etc
+ 2. Non Linear :  A data item is connected to several other data items. So that a given data item has the possibility to reach one-or-more data items, for example trees and graphs
 
 # Data Structures and Computational Basics:
 
