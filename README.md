@@ -93,7 +93,8 @@ Life is a challenge. Inorder to accomplish anything great remembered for. You ne
 # Whats important ?
 Most important part of this repository is to show that I want to make it successful and working prototype inorder to help anyone to reach their goals in the field of competitive programming and helping them to crack their interviews. So go Rise and Shine. Work your Ass off ! I dont want to be an average guy for rest of my life. I want to be someone worth remebered for the work I do. I want to live upto my potential. I dont want someone to judge me about my capabilities and what I can do with my life. So now the most important part YOU DO IT WHEN ODDS ARE NOT IN YOUR TURN AS ELON MUSK DID! 
 # Inspiration and my motivation
-[What is the secret of self discipline By Ara-Mambreyan](https://www.quora.com/What-is-the-secret-to-self-discipline/answer/Ara-Mambreyan-1)
+- [What is the secret of self discipline By Ara-Mambreyan](https://www.quora.com/What-is-the-secret-to-self-discipline/answer/Ara-Mambreyan-1)
+- [What do you do when no one believes in you? By Ara-Mambreyan](https://www.quora.com/What-do-you-do-when-no-one-believes-in-you/answer/Ara-Mambreyan-1?srid=RzIL)
 When something is difficult, I have to push myself in doing that. The first days would be hard and tedious. Then, it would become a habit. Lastly, it would become a lifestyle.
 # Making Execuses?
 See Ara Mambreyan just a 17 year old guy cracked the international olympiad . Do not waste time partying/socializing.
