@@ -27,6 +27,25 @@ $ Foo foo = new Foo();
 # 4. what is a reference?
 A reference is the address of the memory location where the object is stored.
 
+When you create an object from a class, Java allocates the amount of memory the object requires to store the object. Then, if you assign the object to a variable, the variable is actually assigned a reference to the object, not the object itself. 
+This reference is the address of the memory location where the object is stored.
+To declare a variable using a reference type, you simply list the class name as the data type.
+
+For example, the following statement defines a variable that can reference objects created from a class named Ball:
+```sh
+ Ball b;
+```
+To create a new instance of an object from a class, you use the new keyword along with the class name:
+```sh
+ Ball b = new Ball();
+```
+key concepts in working with reference types is the fact that a variable of a particular type doesn’t actually contain an object of that type. Instead, it contains a reference to an object of the correct type. An important side effect is that two variables can refer to the same object.
+```sh
+Ball b1 = new Ball();
+Ball b2 = b1;
+```
+Here, both b1 and b2 refer to the same instance of the Ball class.
+
 # 5. Java -What is an instance variable? 
 
 Instance variables belong to an instance of a class. Another way of saying that is instance variables belong to an object, since an object is an instance of a class. Every object has it’s own copy of the instance variables.
