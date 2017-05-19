@@ -26,3 +26,30 @@ $ Foo foo = new Foo();
 
 # 4. what is a reference?
 A reference is what is used to describe the pointer to the memory location where the Object resides.
+
+# 5. Java -What is an instance variable? [closed]
+
+
+Instance variable is the variable declared inside a class, but outside a method: something like:
+```sh
+class IronMan{
+
+     /** These are all instance variables **/
+     public String realName;
+     public String[] superPowers;
+     public int age;
+
+     /** Getters / setters here **/
+}
+Now this IronMan Class can be instantiated in other class to use these variables, something like:
+
+class Avengers{
+        public static void main(String[] a){
+              IronMan ironman = new IronMan();
+              ironman.realName = "Tony Stark";
+              // or
+              ironman.setAge(30);
+         }
+
+}
+```
