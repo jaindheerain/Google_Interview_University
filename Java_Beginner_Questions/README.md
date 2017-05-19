@@ -29,6 +29,7 @@ A reference is what is used to describe the pointer to the memory location where
 
 # 5. Java -What is an instance variable? 
 
+Instance variables belong to an instance of a class. Another way of saying that is instance variables belong to an object, since an object is an instance of a class. Every object has it’s own copy of the instance variables.
 
 Instance variable is the variable declared inside a class, but outside a method: something like:
 ```sh
