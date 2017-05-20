@@ -111,7 +111,7 @@ Most important part of this repository is to show that I want to make it success
 ##### Believe in yourself and go conquer the world!
 ##### When something is difficult, I have to push myself in doing that. The first days would be hard and tedious. Then, it would become a habit. Lastly, it would become a lifestyle.
 # Making Execuses?
-See Ara Mambreyan just a 17 year old guy cracked the international olympiad . Do not waste time partying/socializing.
+See Ara Mambreyan just a 16 year old guy cracked the international olympiad . Do not waste time partying/socializing.
 
 This is me in the August with the current President of Armenia.
 ![With the president of Armenia](https://github.com/dineshsonachalam/Mission_Peace/blob/master/images/ara_mambreyan.jpg "Ara_Mambreyan")
