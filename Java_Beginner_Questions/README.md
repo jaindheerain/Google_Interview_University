@@ -73,3 +73,29 @@ class Avengers{
 
 }
 ```
+# 6. what is new keyword ?
+The new keyword is used to allocate memory at run time. All objects get memory in Heap memory area.
+
+# 7. What is difference between references and objects in java?
+A reference is an entity which provides a way to access object of its type. An object is an entity which provides a way to access the members of it's class or type.
+Generally, You can't access an object without a reference to it.
+
+For example:
+
+class Student{  
+void aMethod()
+    {
+        // some business logic.
+        System.out.println("Method function gets invoked by invoking object")
+    }
+
+  
+ public static void main(String args[]){  
+  Student s1=new Student();  //creating an object of Student  
+  // Here s1 is a reference to an object of Student class.
+  s1.aMethod(); //accessing member through reference variable  
+  
+ }  
+}  
+
+
