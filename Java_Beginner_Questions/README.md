@@ -80,8 +80,8 @@ The new keyword is used to allocate memory at run time. All objects get memory i
 A reference is an entity which provides a way to access object of its type. An object is an entity which provides a way to access the members of it's class or type.
 Generally, You can't access an object without a reference to it.
 
-For example:
-
+#### Example 1:
+```sh
 class Student{  
 void aMethod()
     {
@@ -97,5 +97,21 @@ void aMethod()
   
  }  
 }  
+```
+#### Example 2:
+Lets have a class called GUI. We are creating a reference variable. A reference variable has class name as its data type.
+```sh
+GUI g1;
+```
+You are not able to use g1 until you assign an object to it, Since currently it does not point to any object.
+Here g1 points to NULL.
+
+```sh
+GUI g2 =  new GUI();
+```
+Here g2 is a reference to an object of GUI class. It is initialized with an object.
+
+###### Only difference between g1 and g2 is, g1 is initialized with an object. Whereas g2 is not initialized with an object.
+
 
 
