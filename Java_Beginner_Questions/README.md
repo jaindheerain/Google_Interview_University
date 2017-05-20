@@ -1,100 +1,117 @@
-# Mission_Peace
-Basic computational knowledge towards Data_Structures and Algorithms
+# 1. What exactly is an instance in Java?
 
-Edit the document or wiki page and use the - [ ] and - [x] syntax to update your task list.
+An object and an instance are the same thing.
 
-# Java Basics
- 1. [Constructors in Java - A complete Study](http://beginnersbook.com/2013/03/constructors-in-java/)
- 
-2. [Final Keyword In Java – Final variable, Method and Class](http://beginnersbook.com/2014/07/final-keyword-java-final-variable-method-class/)
-3. [Super keyword in java with example](http://beginnersbook.com/2014/07/super-keyword-in-java-with-example/)
+Personally I prefer to use the word "instance" when referring to a specific object of a specific type, for example "an instance of type Foo". But when talking about objects in general I would say "objects" rather than "instances".
 
+A reference either refers to a specific object or else it can be a null reference.
 
-# Data Structures and Computational Basics:
-
-- [ ]    1.  Asymptotic Notation
-- [ ]    2.  Arrays
-- [ ]    3.  Recursion
-- [ ]    4.  Backtracking
-- [ ]    5.  Linked List
-- [ ]    6.  Stacks
-- [ ]    7.  Queues
-- [ ]    8.  Trees
-- [ ]    9.  Priority Queues and Heaps
-- [ ]    10. Disjoint Sets ADT
-- [ ]    11. Graph Algorithms
-
-### Online Judge : LeetCode,CodeChef,CodeForces
-### Resources    : CodeMonk - Ds & Algo By Narasimha Karumanchi, http://www.ideserve.co.in , Gate Lectures by Ravindrababu Ravula , GeekforGeeks, Cracking the Coding Interview -By Gayle Lakhman.
-
-# Best Book you can ever get to learn datastructures and algorithms in Java
-
-[Data Structures & Algorithms in Java By Robert Lafore](https://inspirit.net.in/books/academic/Data%20Structures%20&%20Algorithms%20in%20Java%20-%20Robert%20Lafore.pdf)
-# Inspired Posts
-https://www.quora.com/What-is-the-best-book-to-learn-data-structures-using-Java
-https://www.quora.com/How-can-I-learn-Data-Structure-in-Java
+They say that they have to create an instance to their application. What does it mean?
+They probably mean you have to write something like this:
+```sh
+$ Foo foo = new Foo();
+```
+# 2. What is the difference between extends and implements?
+- Extends -> For inheriting the Base Class.
+- Implements -> For implementing an Interface.
+# 3. What are classes, references and objects?
 
 
 
-# Tips for cracking coding Interview
-Focus on following areas to crack almost any programming interview:
+#### 1. A Class is like the Blueprint for a house. Using this blueprint, you can build as many houses as you like.
+#### 2. Each house you build (or instantiate, in OO lingo) is an Object, also known as an Instance.
+#### 3. Each house also has an Address, of course. If you want to tell someone where the house is, you give them a card with the address written on it. That card is the object's Reference.
+#### 4. If you want to visit the house, you look at the address written on the card. This is called Dereferencing.
+###### You can copy that reference as much as you like, but there's just one house -- you're just copying the card that has the address on it, not the house itself. Java methods are always pass-by-value, but the value could be an object's Reference
 
-#### Data structures: Array, Linked List, Stack, Queue, Hash Table, BST, Map (Hash vs Tree), Set, Trie, Graph. Applications and pros & cons of those.
+# 4. what is a reference?
+A reference is the address of the memory location where the object is stored.
 
-#### Algorithms: Time complexity, Space complexity, Sorting, Searching, BFS & DFS, Dynamic programming, Recursion, Bit manipulations.
+When you create an object from a class, Java allocates the amount of memory the object requires to store the object. Then, if you assign the object to a variable, the variable is actually assigned a reference to the object, not the object itself. 
+This reference is the address of the memory location where the object is stored.
+To declare a variable using a reference type, you simply list the class name as the data type.
 
-#### Maths: Permutations, Combinations, Medians, Probability, Geometry, …
+For example, the following statement defines a variable that can reference objects created from a class named Ball:
+```sh
+ Ball b;
+```
+To create a new instance of an object from a class, you use the new keyword along with the class name:
+```sh
+ Ball b = new Ball();
+```
+key concepts in working with reference types is the fact that a variable of a particular type doesn’t actually contain an object of that type. Instead, it contains a reference to an object of the correct type. An important side effect is that two variables can refer to the same object.
+```sh
+Ball b1 = new Ball();
+Ball b2 = b1;
+```
+Here, both b1 and b2 refer to the same instance of the Ball class.
 
-#### Problem solving: How to reduce any given problem to a known Math or DS or DS+algo problem given enough hints.
+# 5. Java -What is an instance variable? 
 
-#### Coding: Write elegant, correct and efficient code in 25–45 minutes.
+Instance variables belong to an instance of a class. Another way of saying that is instance variables belong to an object, since an object is an instance of a class. Every object has it’s own copy of the instance variables.
 
-#### Tips for coding interviews:
+Instance variable is the variable declared inside a class, but outside a method: something like:
+```sh
+class IronMan{
 
-Ask relevant questions before attempting to solve
-break the problem into similar/smaller known problems
-briefly discuss brute force approach, if required
-where applicable, use
-1. maths
-2. sorting
-3. searching
-4. traversal
-5. recursion
-6. bit manipulation
-7. dynamic programming
-8. before implementing your algorithm
-9. discuss it with the interviewer
-10. discuss it’s time and space complexity
-#### See if it can be improved based on above discussion
-write test cases (before code!)
-start small, test immediately
-write functions that are
-reusable
-loosely coupled
-small and do only one thing!
-avoid
-gotos
-unnecessary variables
-unnecessary/many/nested if-elses
-always
-validate input
-check return codes
-handle corner cases
-trace your code with test cases before telling the interviewer - done!
+     /** These are all instance variables **/
+     public String realName;
+     public String[] superPowers;
+     public int age;
 
-# Awesome Courses for building Algorithms and DS knowledge
+     /** Getters / setters here **/
+}
+Now this IronMan Class can be instantiated in other class to use these variables, something like:
+
+class Avengers{
+        public static void main(String[] a){
+              IronMan ironman = new IronMan();
+              ironman.realName = "Tony Stark";
+              // or
+              ironman.setAge(30);
+         }
+
+}
+```
+# 6. what is new keyword ?
+The new keyword is used to allocate memory at run time. All objects get memory in Heap memory area.
+
+# 7. What is difference between references and objects in java?
+A reference is an entity which provides a way to access object of its type. An object is an entity which provides a way to access the members of it's class or type.
+Generally, You can't access an object without a reference to it.
+
+#### Example 1:
+```sh
+class Student{  
+void aMethod()
+    {
+        // some business logic.
+        System.out.println("Method function gets invoked by invoking object")
+    }
+
+  
+ public static void main(String args[]){  
+  Student s1=new Student();  //creating an object of Student  
+  // Here s1 is a reference to an object of Student class.
+  s1.aMethod(); //accessing member through reference variable  
+  
+ }  
+}  
+```
+#### Example 2:
+Lets have a class called GUI. We are creating a reference variable. A reference variable has class name as its data type.
+```sh
+GUI g1;
+```
+You are not able to use g1 until you assign an object to it, Since currently it does not point to any object.
+Here g1 points to NULL.
+
+```sh
+GUI g2 =  new GUI();
+```
+Here g2 is a reference to an object of GUI class. It is initialized with an object.
+
+###### Only difference between g1 and g2 is, g1 is initialized with an object. Whereas g2 is not initialized with an object.
 
 
-- [ ]    1. [Algorithms Part-1 By Robert Sedgewick,Princeton University](https://www.coursera.org/learn/algorithms-part1/home/welcome)
-- [ ]    2. [Algorithms Part-1 By Robert Sedgewick,Princeton University](https://www.coursera.org/learn/algorithms-part2/home/welcome)
-
-# Challenge
-Life is a challenge. Inorder to accomplish anything great remembered for. You need 3 things HARD WORK + BLOOD + PERSEVERANCE = UNSTOPPABLE. I challenge myself, I will push my local directory into my github. If I had completed 100% of a particular topic.
-# Whats important ?
-Most important part of this repository is to show that I want to make it successful and working prototype inorder to help anyone to reach their goals in the field of competitive programming and helping them to crack their interviews. So go Rise and Shine. Work your Ass off ! I dont want to be an average guy for rest of my life. I want to be someone worth remebered for the work I do. I want to live upto my potential. I dont want someone to judge me about my capabilities and what I can do with my life. So now the most important part YOU DO IT WHEN ODDS ARE NOT IN YOUR TURN AS ELON MUSK DID! 
-# Inspiration and my motivation
-[What is the secret of self discipline By Ara-Mambreyan](https://www.quora.com/What-is-the-secret-to-self-discipline/answer/Ara-Mambreyan-1)
-When something is difficult, I have to push myself in doing that. The first days would be hard and tedious. Then, it would become a habit. Lastly, it would become a lifestyle.
-# Making Execuses?
-See Ara Mambreyan just a 17 year old guy cracked the international olympiad 
 

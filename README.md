@@ -8,7 +8,12 @@ Edit the document or wiki page and use the - [ ] and - [x] syntax to update your
  
 2. [Final Keyword In Java – Final variable, Method and Class](http://beginnersbook.com/2014/07/final-keyword-java-final-variable-method-class/)
 3. [Super keyword in java with example](http://beginnersbook.com/2014/07/super-keyword-in-java-with-example/)
-
+4. [Java Good tutorial](http://www.dummies.com/programming/java/reference-types-in-java/)
+#### Algorithm: method for solving a problem.
+#### Data structure: method to store information.
+#### Datastructure classified into 2 types
+ 1. Linear : A data structure is said to be linear if the elements form a sequence, for example Array, Linked list, queue etc
+ 2. Non Linear :  A data item is connected to several other data items. So that a given data item has the possibility to reach one-or-more data items, for example trees and graphs
 
 # Data Structures and Computational Basics:
 
@@ -25,7 +30,7 @@ Edit the document or wiki page and use the - [ ] and - [x] syntax to update your
 - [ ]    11. Graph Algorithms
 
 ### Online Judge : LeetCode,CodeChef,CodeForces
-### Resources    : CodeMonk - Ds & Algo By Narasimha Karumanchi, http://www.ideserve.co.in , Gate Lectures by Ravindrababu Ravula , GeekforGeeks, Cracking the Coding Interview -By Gayle Lakhman.
+### Resources    : CodeMonk - Ds & Algo By Narasimha Karumanchi, http://www.ideserve.co.in , Gate Lectures by Ravindrababu Ravula , GeekforGeeks, http://courses.geeksforgeeks.org/course/2/, Cracking the Coding Interview -By Gayle Lakhman.
 
 # Best Book you can ever get to learn datastructures and algorithms in Java
 
@@ -93,12 +98,23 @@ Life is a challenge. Inorder to accomplish anything great remembered for. You ne
 # Whats important ?
 Most important part of this repository is to show that I want to make it successful and working prototype inorder to help anyone to reach their goals in the field of competitive programming and helping them to crack their interviews. So go Rise and Shine. Work your Ass off ! I dont want to be an average guy for rest of my life. I want to be someone worth remebered for the work I do. I want to live upto my potential. I dont want someone to judge me about my capabilities and what I can do with my life. So now the most important part YOU DO IT WHEN ODDS ARE NOT IN YOUR TURN AS ELON MUSK DID! 
 # Inspiration and my motivation
-[What is the secret of self discipline By Ara-Mambreyan](https://www.quora.com/What-is-the-secret-to-self-discipline/answer/Ara-Mambreyan-1)
-When something is difficult, I have to push myself in doing that. The first days would be hard and tedious. Then, it would become a habit. Lastly, it would become a lifestyle.
+- [What is the secret of self discipline By Ara-Mambreyan](https://www.quora.com/What-is-the-secret-to-self-discipline/answer/Ara-Mambreyan-1)
+- [What do you do when no one believes in you? By Ara-Mambreyan](https://www.quora.com/What-do-you-do-when-no-one-believes-in-you/answer/Ara-Mambreyan-1?srid=RzIL)
+##### Nobody believes in nobody. You are the only one who knows yourself. YOU!
+
+##### Not me. Not your teacher. Not your girlfriend. Not even your parents.
+
+##### YOU! You are the freak of nature. You have the power within you. Nobody, knows how you think or how much power of will you have. Only you!
+
+##### Find the burning power within you. Self-confidence (which leads to hard-work) is the leading factor of success. Talent, brain and discipline are nothing if you don’t have self-confidence. But don’t tie your self-confidence with what others believe.
+
+##### Believe in yourself and go conquer the world!
+##### When something is difficult, I have to push myself in doing that. The first days would be hard and tedious. Then, it would become a habit. Lastly, it would become a lifestyle.
 # Making Execuses?
-See Ara Mambreyan just a 17 year old guy cracked the international olympiad . Do not waste time partying/socializing.
+See Ara Mambreyan just a 16 year old guy cracked the international olympiad . Do not waste time partying/socializing.
 
 This is me in the August with the current President of Armenia.
 ![With the president of Armenia](https://github.com/dineshsonachalam/Mission_Peace/blob/master/images/ara_mambreyan.jpg "Ara_Mambreyan")
+
 Your family and friends doesnt give a damn about your dreams. Dont ever get a opinion from them. Stop advicing people and friends until you achieve anything great because 'Your words dont create Monuments but your Action does!'. Live your dream. Follow your instincts! Live life to your potential and then life becomes a celebration !
  
