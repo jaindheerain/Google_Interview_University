@@ -649,3 +649,382 @@ Linked list after the deletion of a node at position 0
 Linked list after deletion at position 2 (3rd element)
 2 3 5
 ```
+# 5. Delete last occurrence of an item from linked list
+#### Examples:
+```sh
+Input:   1->2->3->5->2->10, key = 2
+Output:  1->2->3->5->10 
+```
+#### Source code:
+```sh
+class linkedlist
+{
+    Node head;
+    /*
+        head -> reference variable of class Node not pointing to any object
+                by default it is null
+    */
+    /*linkedlist node*/
+    class Node
+    {
+        int data;
+        Node next;
+        /*
+          next -> reference variable not pointing to any object
+        */
+        /*
+          Creating a parametrized constructor and it gets invoked
+          when object is being created.
+        */
+        Node(int d)
+        {
+            data = d;
+            next = null;
+        }
+    }
+
+    /*
+      push() --> to push an node element at the end of the linkedlist
+    */
+    public void push(int node_data)
+    {
+        /*
+            If it's a 1st node i.e head
+            now point reference variable head to point to an object
+        */
+        if(head == null)
+        {
+          head = new Node(node_data);
+          return ; //stop the function
+        }
+        /*
+          push the node at end of the list we need to iterate
+          to find the lastnode and attaching a new node to lastnode
+          such that new node becomes the lastnode
+        */
+        Node new_node = new Node(node_data);
+        /*
+          Creating a reference variable new_node pointing to an object.
+        */
+        Node lastnode = head;
+        /*
+            Here lastnode is a reference variable pointing to the same object
+            of the reference variable head
+        */
+        /*Iterate node link to find the lastnode*/
+        while(lastnode.next != null)
+        {
+          lastnode = lastnode.next;
+        }
+        /*
+          Suppose linkedlist contains 1-->2-->3-->4-->5
+          lastnode = 1(head) initially
+          while loop execution
+          1. lastnode.next = 2 != null
+             lastnode = 2
+          2. lastnode.next = 3 != null
+             lastnode = 3
+          3. lastnode.next = 4 != null
+             lastnode = 4
+          4. lastnode.next = 5 != null
+             lastnode = 5
+          5. lastnode.next = null != null(FALSE)
+        */
+        /*
+            Since new_node will become lastnode its next
+            element should be a null
+        */
+        new_node.next = null;
+        /*
+          lastnode.next --> should be the new_node as it becomes
+          new lastnode.
+        */
+        lastnode.next = new_node;
+
+    }
+
+    /*
+        Delete last occurence of an item from the linkedlist
+        key --> node whose last occurence should be deleted
+    */
+    public  void deleteNode(int key)
+    {
+      /*
+          Inorder to delete the last occurence of the node
+          You need:
+          1. To keep track of prev_node
+          2. To keep tack of the last occurence of the key
+      */
+      Node prev_node = null;
+      Node last_occurence = null;
+      /*
+          Here prev_node and last_occurence are reference variable
+          not pointing to any object
+      */
+      Node temp = head;
+      /*
+          temp is a reference variable of class Node pointing to same object
+          reference variable head is pointing to.
+      */
+      /*
+          We need to iterate the loop inorder to find the last occurence
+          of the key
+      */
+      while (temp.next != null)
+      {
+        if((temp == head) && (temp.data == key))
+        {
+          last_occurence = temp;
+          /*
+            Dont need to care about prev_node as its a head
+          */
+        }
+        else if(temp.next.data == key)
+        {
+            last_occurence = temp.next;
+            prev_node = temp;
+        }
+        temp = temp.next;
+      }
+      /*
+          If linkedlist contains 1-->2-->3-->4-->2-->5
+          key(to be deleted) = 2
+          prev_node = null
+          last_occurence = null
+          temp = 1 (head)
+
+          While loop execution:
+          1. temp == head (true) && temp.data(1) == 2 (FALSE)
+             else
+             temp.next.data = 2 == key
+             last_occurence = 2
+             prev = 1
+             temp = 2
+
+          2. temp == head (false)
+             else
+             temp.next.data = 3 !=key (FALSE)
+             temp = temp.next
+             temp = 3
+
+          3. temp == head (false)
+             else
+             temp.next.data = 4 !=key (FALSE)
+             temp = temp.next
+             temp = 4
+
+          4. temp == head (false)
+             else
+             temp.next.data = 2 == key (True)
+             last_occurence = 2 (position 4 in the linkedlist)
+             prev = 4
+             temp = temp.next
+             temp = 2
+
+          5. temp == head (false)
+             else
+             temp.next.data =5 ==key (FALSE)
+             temp = temp.next
+             temp = 5
+
+        6. while(temp.next! = null)
+              5 -> next element is null
+              While loop terminates
+      */
+      /*
+          If last occurence is head
+      */
+      if(last_occurence == head)
+      {
+        head = head.next; //delete the key
+        return ; // terminate the function
+      }
+      /*
+        last occurence of node to be deleted
+        prev = 4 and temp = 2 (node to be deleted)
+        prev.next -linked to-> temp.next
+        We need to unlink temp i.e deleting it
+      */
+      prev_node.next = last_occurence.next;
+    }
+
+
+
+    /*
+        To print the elements in the linkedlist
+    */
+    public void printlist()
+    {
+        Node tnode = head;
+        /*
+            Now the reference variable tnode pointing to same object
+            reference variable head is pointing to.
+        */
+        while (tnode!=null)
+        {
+            /*
+                Print the data present in the nodes in the linkedlist
+            */
+            System.out.print(tnode.data+"--->");
+            tnode = tnode.next;
+        }
+        System.out.print("null");
+        System.out.println();
+    }
+    /*Driver program*/
+    public static void main(String[] args)
+    {
+          linkedlist llist  = new linkedlist();
+          llist.push(1);
+          llist.push(2);
+          llist.push(3);
+          llist.push(4);
+          llist.push(2);
+          llist.push(5);
+          System.out.println("linkedlist contains:");
+          llist.printlist();
+          /*
+              Delete the last_occurence of the node having data 2
+          */
+          llist.deleteNode(2);
+          System.out.println("LinkedList after deletion of node having data 2 in its last occurence:");
+          llist.printlist();
+    }
+}
+```
+#### Output:
+```sh
+linkedlist contains:
+1--->2--->3--->4--->2--->5--->null
+LinkedList after deletion of node having data 2 in its last occurence:
+1--->2--->3--->4--->5--->null
+```
+# 6. Find Length of a Linked List (Iterative and Recursive)
+
+- [ ] Unfinished recursive solution
+- [x] Finished  Iterative solution
+Problem URL: http://www.geeksforgeeks.org/find-length-of-a-linked-list-iterative-and-recursive/
+#### Source code for Iterative solution:
+```sh
+class linkedlist
+{
+  Node head;
+  /*
+      head -> reference variable not pointing to any object
+      & default is null
+  */
+  class Node //LinkedList Node
+  {
+    int data;
+    Node next;
+    /*
+        next -> reference variable of class node pointing to
+        an object
+    */
+    /*
+      Creating a parametrized constructor and it gets invoked
+      when an object is being created
+    */
+    Node(int d)
+    {
+        data = d;
+        next = null;
+    }
+  }
+  /*
+      TO push an element node at the front of the list
+  */
+  public void push(int node_data)
+  {
+      Node new_node = new Node(node_data);
+      /*
+          Creating a reference variable new_node pointing to an object
+      */
+      /*
+          if head is null i.e linkedlist is empty
+      */
+      if(head ==  null)
+      {
+        head = new Node(node_data);
+        /*
+          head --> reference variable pointing to an object of class Node
+        */
+        return ; //end the function
+      }
+      /*
+        new_node should be a head
+        new_node --next--> previous head
+        and Finally Assign new_node as next
+      */
+      new_node.next = head;
+      head = new_node;
+      /*
+        Finally new_node becomes head
+      */
+  }
+  /*
+    to count the no of elements in the linkedlist
+  */
+
+  public int get_count()
+  {
+      Node tnode = head;
+/*
+          Here reference variable tnode  pointing to the same object
+          reference variable head is pointing to
+*/
+      int count = 0;
+      while (tnode!=null)
+      {
+          count++;
+          tnode = tnode.next;
+      }
+      return count;
+  }
+
+  /*
+      To print the elements in the linked list
+  */
+  public void printlist()
+  {
+    Node tnode = head;
+    while (tnode!=null)
+    {
+        System.out.print(tnode.data+" ");
+        tnode = tnode.next;
+    }
+    System.out.println();
+  }
+  /*
+      Driver program
+  */
+  public static void main(String[] args)
+  {
+        linkedlist llist = new linkedlist();
+        /*
+            We are creating a reference variable llist pointing to
+            an object
+        */
+        llist.push(5);
+        llist.push(4);
+        llist.push(3);
+        llist.push(2);
+        llist.push(1);
+        /*
+            LinkedList contains 1-->2-->3-->4-->5
+        */
+        System.out.println("Elements in the linkedlist are:");
+        llist.printlist();
+      System.out.println("LinkedList length: "+llist.get_count());
+}
+}
+```
+#### Output:
+```sh
+Elements in the linkedlist are:
+1 2 3 4 5
+LinkedList length: 5
+```
+# 7. Search an element in a Linked List (Iterative and Recursive)
+- [ ] Unfinished recursive solution
+Problem URL: http://www.geeksforgeeks.org/search-an-element-in-a-linked-list-iterative-and-recursive/
