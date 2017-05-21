@@ -86,9 +86,13 @@ class linkedlist //parent class
         +----+------+     +----+------+     +----+------+ */
         llist.printlist();
 
-
-
      }
 }
 
+```
+#### Output:
+```sh
+1
+2
+3
 ```
