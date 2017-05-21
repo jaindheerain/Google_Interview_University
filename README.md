@@ -4,7 +4,7 @@ Basic computational knowledge towards Data_Structures and Algorithms
 Edit the document or wiki page and use the - [ ] and - [x] syntax to update your task list.
 
 # Recommended  
-After finishing the linkedlist try to learn recursion.
+After finishing the Linked list iterative approach try to learn recursion.
 - [ ] 1. Recursion.
 - [ ] 2. Linked list problem using recursive approach.
 
