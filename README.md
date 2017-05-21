@@ -3,6 +3,11 @@ Basic computational knowledge towards Data_Structures and Algorithms
 
 Edit the document or wiki page and use the - [ ] and - [x] syntax to update your task list.
 
+# Recommended  
+After finishing the linkedlist try to learn recursion.
+- [ ] 1. Recursion.
+- [ ] 2. Linked list problem using recursive approach.
+
 # Java Basics
  1. [Constructors in Java - A complete Study](http://beginnersbook.com/2013/03/constructors-in-java/)
  
