@@ -1,4 +1,4 @@
-# A simple Java program for traversal of a linked list
+# 1. A simple Java program for traversal of a linked list
 ```sh
 import java.io.*;
 import java.util.*;
