@@ -4,8 +4,11 @@ import java.io.*;
 import java.util.*;
 class linkedlist //parent class
 {
-    Node head; /* Creation of Reference Variable of class Node. head --> null .Since it does not point  to any object or
-    intialized to any object */
+    Node head; 
+    /* 
+       Creation of Reference Variable of class Node. head --> null .Since it does not point  to any object or
+       intialized to any object 
+    */
 
     /* Inner class made static so that main can access it*/
     static class Node
@@ -22,7 +25,10 @@ class linkedlist //parent class
      public void printlist()
      {
        Node n = head; //Assigning reference variable 'head' to Reference variable 'n' of class Node
-       /*Head element normally points to the address of the memory location where the object is stored.*/
+       /*
+            Head element normally points to the address of 
+            the memory location where the object is stored.
+        */
        while(n != null)  //Till the last node. loop runs until last element of a list
        {
          System.out.println(n.data + " ");
@@ -54,8 +60,11 @@ class linkedlist //parent class
         +----+------+     +----+------+     +----+------+ */
 
         /*Now creation of link between these nodes*/
-        llist.head.next = second; /* it means list.head.next will point to the same object second is pointing to
- only one object but two references.*/
+        llist.head.next = second; 
+        /* 
+            it means list.head.next will point to the same object second is pointing to
+            only one object but two references.
+         */
  /*  Now next of first Node refers to second.  So they
           both are linked.
 
